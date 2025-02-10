@@ -34,13 +34,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            "तुमसे मिला तो जाना मोहब्बत क्या होती है,  
-            अब तो हर वक्त बस तेरा ही ख्याल रहता है।" ❤️
+            {"तुमसे मिला तो जाना मोहब्बत क्या होती है, अब तो हर वक्त बस तेरा ही ख्याल रहता है।"} ❤️
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link
               href="/#contact"
-              className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white text-center"
+              className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:opacity-80 text-white text-center"
             >
               Muahhhhh ❤️‍🩹
             </Link>
@@ -50,7 +49,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 text-white"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:opacity-80 rounded-full px-5 py-2">
                 Click Here na my Piyu
               </span>
             </Link>
@@ -80,4 +79,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
 
