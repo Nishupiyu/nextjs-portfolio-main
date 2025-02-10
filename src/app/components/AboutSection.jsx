@@ -9,14 +9,15 @@ const TAB_DATA = [
     id: "love",
     content: (
       <ul className="list-disc pl-2">
-        <li>I love so much piyu ❤️ </li>
+        <li>I love you so much, Piyu ❤️ </li>
         <li>Love you more than anyone</li>
-        <li>To be honest you were the best thing that happened to me </li>
-        <li>Aap mere liye sab ban gein</li>
-        <li>Muah my baby Love you</li>
-        <li>I'll be gone, but this thing won't </li>
-        <li>password for pdf is my birthday in format 18022006</li>
-        <li>Click right next to from your  nishu on top to listen something special</li>
+        <li>To be honest, you were the best thing that happened to me </li>
+        <li>Aap mere liye sab ban gaye hain</li>
+        <li>Muah, my baby! Love you</li>
+        <li>I&apos;ll be gone, but this thing won&apos;t </li>
+        <li>Password for the PDF is my birthday in format **18022006**</li>
+        <li>Click right next to &quot;from your Nishu&quot; on top to listen to something special</li>
+        <li>I wish aap kisi ko beech mein nahi laaye hote 😔</li>
       </ul>
     ),
   },
@@ -35,7 +36,7 @@ const TAB_DATA = [
     id: "our_moments",
     content: (
       <ul className="list-disc pl-2">
-        <li>When you confessed love to me ❤️</li>
+        <li>When you confessed your love to me ❤️</li>
         <li>When we did video calls for hours ❤️</li>
       </ul>
     ),
@@ -59,35 +60,26 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-red-600 mb-4">Happiest Birthday Meri Piyu</h2>
           <p className="text-base lg:text-lg">
-            Hey Piya, I love you so much. I know we both love each other so much.
-            Happy Birthday, my love. I hope you like this gift. I love you so much.
-            Right now, while making this, I can't control my tears, Piyu, seriously.
-            Like at this moment, I am crying like hell, Piyu. I just love you so much.
-            Maybe in the next life, I will be a good person and will be able to keep you happy.
-            I am sorry for everything, Piyu, but just know, baby, I love you more than
+            Hey Piya, I love you so much. I know we both love each other deeply.
+            Happy Birthday, my love. I hope you like this gift. ❤️
+            Right now, while making this, I can&apos;t control my tears, Piyu, seriously.
+            Like at this moment, I am crying like hell. I just love you so much.
+            Maybe in the next life, I will be a better person and will be able to keep you happy.
+            I am sorry for everything, Piyu, but just know that I love you more than
             anyone in this world, and I will always love you. Even if I am gone forever
-            from this world, just know that I love you more than anyone. Maybe I couldn't
-            be a perfect person, but still, Happiest Birthday, my love ❤️
-            Be happy always and do good in life, Piyu. And yes, baby, I wish I could have met you,
+            from this world, just know that I love you more than anyone. 
+            Maybe I couldn&apos;t be a perfect person, but still, Happiest Birthday, my love ❤️
+            Be happy always and do well in life, Piyu. And yes, baby, I wish I could have met you,
             but I think this is the end for me. I love you so much, Piyu ❤️
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("love")}
-              active={tab === "love"}
-            >
+            <TabButton selectTab={() => handleTabChange("love")} active={tab === "love"}>
               Love
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("nishupiyu")}
-              active={tab === "nishupiyu"}
-            >
+            <TabButton selectTab={() => handleTabChange("nishupiyu")} active={tab === "nishupiyu"}>
               Nishupiyu
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("our_moments")}
-              active={tab === "our_moments"}
-            >
+            <TabButton selectTab={() => handleTabChange("our_moments")} active={tab === "our_moments"}>
               Our Moments
             </TabButton>
           </div>
@@ -101,3 +93,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
